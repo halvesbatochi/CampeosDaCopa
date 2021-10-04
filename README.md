@@ -11,7 +11,6 @@
     * Constraint
         * Content Compression Resistance Priority
         * Content Hugging Priority
-        * Animações por constraint
     * Assets
 
 * Components
