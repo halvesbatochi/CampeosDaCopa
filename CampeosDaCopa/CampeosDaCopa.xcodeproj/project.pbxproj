@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5C60727E270A941B00554D55 /* WorldCupTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C60727D270A941B00554D55 /* WorldCupTableViewCell.swift */; };
+		5C607280270AA59000554D55 /* GamesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C60727F270AA59000554D55 /* GamesTableViewCell.swift */; };
 		5C7FD1742702A74900EEEEBA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C7FD1732702A74900EEEEBA /* AppDelegate.swift */; };
 		5C7FD1762702A74900EEEEBA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C7FD1752702A74900EEEEBA /* SceneDelegate.swift */; };
 		5C7FD17B2702A74900EEEEBA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C7FD1792702A74900EEEEBA /* Main.storyboard */; };
@@ -68,6 +70,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5C60727D270A941B00554D55 /* WorldCupTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldCupTableViewCell.swift; sourceTree = "<group>"; };
+		5C60727F270AA59000554D55 /* GamesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamesTableViewCell.swift; sourceTree = "<group>"; };
 		5C7FD1702702A74900EEEEBA /* CampeosDaCopa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CampeosDaCopa.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C7FD1732702A74900EEEEBA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5C7FD1752702A74900EEEEBA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -243,6 +247,8 @@
 			children = (
 				5C7FD1ED2702AA4800EEEEBA /* WinnersTableViewController.swift */,
 				5C7FD1F02702AAA100EEEEBA /* WorldCupViewController.swift */,
+				5C60727D270A941B00554D55 /* WorldCupTableViewCell.swift */,
+				5C60727F270AA59000554D55 /* GamesTableViewCell.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -379,6 +385,8 @@
 				5C7FD1EE2702AA4800EEEEBA /* WinnersTableViewController.swift in Sources */,
 				5C7FD1742702A74900EEEEBA /* AppDelegate.swift in Sources */,
 				5C7FD1F32702AAF700EEEEBA /* WorldCup.swift in Sources */,
+				5C607280270AA59000554D55 /* GamesTableViewCell.swift in Sources */,
+				5C60727E270A941B00554D55 /* WorldCupTableViewCell.swift in Sources */,
 				5C7FD1F12702AAA100EEEEBA /* WorldCupViewController.swift in Sources */,
 				5C7FD1762702A74900EEEEBA /* SceneDelegate.swift in Sources */,
 			);
@@ -532,6 +540,7 @@
 				DEVELOPMENT_TEAM = 2K35UBXMNN;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = CampeosDaCopa/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Campeões";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -560,6 +569,7 @@
 				DEVELOPMENT_TEAM = 2K35UBXMNN;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = CampeosDaCopa/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Campeões";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
